@@ -5,33 +5,43 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="style.css">
   
 </head>
 <body>
   <h1>Basic document flow</h1>
 
 <p>
-  I am a basic block level element. My adjacent block level elements sit on new
-  lines below me.
+  I am a basic block level element. My adjacent block level elements sit on 
+  <br>
+  new lines below me.
+
 </p>
 
 <p>
-  By default we span 100% of the width of our parent element, and we are as tall
-  as our child content. Our total width and height is our content + padding +
-  border width/height.
+  By default we span 100% of the width of our parent element, and we are as
+  <br> 
+  tall as our child content. Our total width and height is our content + padding
+  <br>
+  +border width/height.
 </p>
 
 <p>
   We are separated by our margins. Because of margin collapsing, we are
+  <br>
   separated by the width of one of our margins, not both.
 </p>
 
 <p>
   Inline elements <span>like this one</span> and <span>this one</span> sit on
-  the same line along with adjacent text nodes, if there is space on the same
-  line. Overflowing inline elements will
-  <span>wrap onto a new line if possible (like this one containing text)</span>,
+  the same line along with 
+  <br>
+  adjacent text nodes, if there is space on the same line. Overflowing inline 
+  <br>
+  elements will<span>wrap onto a new line if possible (like this one containing text)</span>,
+  <br>
   or just go on to a new line if not, much like this image will do:
+  <br>
   <img src="long.jpeg" alt="snippet of cloth" />
 </p>
 </body>
